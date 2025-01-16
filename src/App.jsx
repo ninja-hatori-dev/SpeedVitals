@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Dropdown from './components/Dropdown';
 import { Graph } from './components/Graph';
-import MetricsGraph from './MetricsGraph';
+
 
 const metricOptions = [
   { value: 'lcp', label: 'Largest Contentful Paint (LCP)' },
