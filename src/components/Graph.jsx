@@ -2,7 +2,7 @@ import ReactECharts from 'echarts-for-react';
 
 export const Graph = ({ data, metric, device }) => {
   const options = {
-    title: {
+      title: {
       text: `${metric == "cls" ? "Cumulative Layout Shift" : "Largest Contentful Paint"} `,
       left: 'left',
       padding: [6, 0, 0, 0]

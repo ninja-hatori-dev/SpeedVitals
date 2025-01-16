@@ -57,7 +57,8 @@ function App() {
   console.log(data,"app");
 
   return (
-    <div className="max-w-screen-2xl bg-gray-100 mx-auto p-5">
+    <div className="max-w-screen-2xl h-screen
+     bg-gray-100 mx-auto p-5">
       <Navbar />
       <h1 className="text-center text-3xl font-bold mt-10 mb-5">Performance Report</h1>
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
